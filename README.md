@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.1h | 0.1h |
 | Worker/headless AI generation | 1.0h | 6.7h | 59.5h | 111.3h |
 | Additive observed work | 47.4h | 150.8h | 564.9h | 1,261.3h |
-| Interactive sessions | 39 | 65 | 123 | 196 |
-| Worker sessions | 64 | 310 | 1,064 | 1,790 |
+| Interactive sessions | 47 | 73 | 131 | 204 |
+| Worker sessions | 66 | 312 | 1,066 | 1,792 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,9 +34,9 @@ _AI session 365-day totals cover 75 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 23,492 | 239.4M | 12.9M | 2,660.5M | 0 | 91.7% | 863 | 209.3h |
-| gpt-5.6-sol | 14,945 | 88.3M | 3.7M | 1,787.1M | 0 | 95.3% | 251 | 105.3h |
-| grok-4.6 | 5,556 | 52.9M | 2.2M | 598.7M | 0 | 91.9% | 51 | 32.9h |
+| grok-4.5 | 23,772 | 241.2M | 13.2M | 2,688.3M | 0 | 91.8% | 872 | 216.0h |
+| gpt-5.6-sol | 14,907 | 88.1M | 3.7M | 1,784.3M | 0 | 95.3% | 249 | 105.2h |
+| grok-4.6 | 5,557 | 53.0M | 2.2M | 598.7M | 0 | 91.9% | 52 | 32.9h |
 | grok-build-0.1 | 2,430 | 5.2M | 346K | 356.6M | 0 | 98.6% | 2 | 8.6h |
 | grok-4.7 | 1,901 | 9.1M | 475K | 214.1M | 0 | 95.9% | 7 | 6.2h |
 | gpt-6-sol | 1,212 | 6.0M | 310K | 221.6M | 0 | 97.3% | 10 | 8.6h |
@@ -46,17 +46,18 @@ _AI session 365-day totals cover 75 days of local assistant session history (not
 | deepseek-flash | 69 | 526K | 22K | 9.9M | 0 | 95.0% | 3 | 0.2h |
 | qwen3-14b-q4-k-m | 4 | 12K | 2K | 38K | 0 | 75.5% | 2 | 1.4h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **50,895** | **408.7M** | **20.4M** | **5,989.3M** | **0** | **93.6%** | **1,159** | **376.6h** |
+| qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **51,139** | **410.6M** | **20.6M** | **6,014.2M** | **0** | **93.6%** | **1,167** | **383.2h** |
 
-_6,418.6M total tokens processed. 93.6% cache hit rate._
+_6,445.5M total tokens processed. 93.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 47,842 | 259.9M | 12.8M | 6,033.5M | 0 | 95.9% | 371 | 386.5h |
-| grok-4.5 | 23,492 | 239.4M | 12.9M | 2,660.5M | 0 | 91.7% | 863 | 209.3h |
-| grok-4.6 | 6,912 | 72.7M | 2.6M | 777.1M | 0 | 91.4% | 106 | 40.5h |
+| grok-4.5 | 23,772 | 241.2M | 13.2M | 2,688.3M | 0 | 91.8% | 872 | 216.0h |
+| grok-4.6 | 6,913 | 72.8M | 2.6M | 777.1M | 0 | 91.4% | 107 | 40.5h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
 | gpt-6-astra | 4,486 | 17.6M | 1.0M | 892.6M | 0 | 98.1% | 17 | 30.7h |
 | gpt-5.6-terra | 4,485 | 32.8M | 944K | 202.2M | 0 | 86.0% | 389 | 18.1h |
@@ -77,9 +78,10 @@ _6,418.6M total tokens processed. 93.6% cache hit rate._
 | nemotron-3-ultra-free | 2 | 57K | 6 | 0 | 0 | 0.0% | 2 | 0.0h |
 | nemotron-3.5-lightning-free | 2 | 29K | 3 | 28K | 0 | 49.0% | 2 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **104,122** | **668.9M** | **37.9M** | **13,542.8M** | **95.5M** | **94.7%** | **1,929** | **763.4h** |
+| qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **104,404** | **670.9M** | **38.1M** | **13,570.5M** | **95.5M** | **94.7%** | **1,939** | **770.2h** |
 
-_14,345.3M total tokens processed. 94.7% cache hit rate._
+_14,375.3M total tokens processed. 94.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -97,7 +99,7 @@ _14,345.3M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-18 23:29 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-19 00:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

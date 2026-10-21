@@ -35,7 +35,7 @@ _AI session 365-day totals cover 77 days of local assistant session history (not
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | grok-4.5 | 29,918 | 275.3M | 15.7M | 3,258.2M | 0 | 92.2% | 1,048 | 313.0h |
-| gpt-5.6-sol | 14,621 | 86.3M | 3.6M | 1,745.1M | 0 | 95.3% | 245 | 97.6h |
+| gpt-5.6-sol | 14,570 | 85.5M | 3.6M | 1,738.3M | 0 | 95.3% | 245 | 97.4h |
 | grok-4.6 | 5,695 | 56.1M | 2.3M | 608.3M | 0 | 91.5% | 67 | 34.5h |
 | grok-build-0.1 | 2,430 | 5.2M | 346K | 356.6M | 0 | 98.6% | 2 | 8.6h |
 | grok-4.7 | 1,901 | 9.1M | 475K | 214.1M | 0 | 95.9% | 7 | 6.2h |
@@ -50,9 +50,9 @@ _AI session 365-day totals cover 77 days of local assistant session history (not
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **57,900** | **448.0M** | **23.4M** | **6,633.5M** | **0** | **93.7%** | **1,361** | **477.7h** |
+| **Total** | **57,849** | **447.2M** | **23.4M** | **6,626.8M** | **0** | **93.7%** | **1,361** | **477.5h** |
 
-_7,105.1M total tokens processed. 93.7% cache hit rate._
+_7,097.5M total tokens processed. 93.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -105,7 +105,7 @@ _15,075.9M total tokens processed. 94.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-21 01:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-21 02:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

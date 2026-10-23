@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 166.4h | 628.2h | ~7714h* |
-| Interactive human attention | 1.7h | 37.3h | 187.8h | 471.9h |
-| Interactive AI generation | 20.9h | 232.8h | 400.0h | 848.2h |
-| Worker-classified human attention | 0.0h | 0.0h | 0.1h | 0.1h |
-| Worker/headless AI generation | 1.2h | 7.9h | 43.0h | 116.2h |
-| Additive observed work | 23.8h | 278.0h | 630.9h | 1,436.4h |
-| Interactive sessions | 85 | 274 | 301 | 414 |
-| Worker sessions | 99 | 332 | 1,102 | 1,971 |
+| Screen time (Linux) | 23.8h | 166.3h | 628h | ~7714h* |
+| Interactive human attention | 8.5h | 32.1h | 183.1h | 480.4h |
+| Interactive AI generation | 11.1h | 233.1h | 382.6h | 859.3h |
+| Worker-classified human attention | 0.6h | 0.6h | 0.7h | 0.7h |
+| Worker/headless AI generation | 6.6h | 13.5h | 43.9h | 122.8h |
+| Additive observed work | 26.7h | 279.3h | 610.2h | 1,463.1h |
+| Interactive sessions | 28 | 267 | 297 | 414 |
+| Worker sessions | 70 | 287 | 1,024 | 1,971 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -28,7 +28,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 79 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 80 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -105,7 +105,7 @@ _15,732.3M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-23 05:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-23 06:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

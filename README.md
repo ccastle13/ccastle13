@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 23.8h | 166.3h | 628h | ~7730h* |
-| Interactive human attention | 8.5h | 32.1h | 183.1h | 480.4h |
-| Interactive AI generation | 11.1h | 233.1h | 382.6h | 859.3h |
-| Worker-classified human attention | 0.6h | 0.6h | 0.7h | 0.7h |
-| Worker/headless AI generation | 6.6h | 13.5h | 43.9h | 122.8h |
-| Additive observed work | 26.7h | 279.3h | 610.2h | 1,463.1h |
-| Interactive sessions | 39 | 274 | 303 | 420 |
-| Worker sessions | 125 | 342 | 1,079 | 2,026 |
+| Screen time (Linux) | 24h | 166.3h | 628.9h | ~7730h* |
+| Interactive human attention | 8.7h | 33.6h | 179.6h | 489.1h |
+| Interactive AI generation | 6.2h | 217.5h | 379.0h | 865.5h |
+| Worker-classified human attention | 0.5h | 1.1h | 1.2h | 1.2h |
+| Worker/headless AI generation | 6.5h | 19.0h | 39.6h | 129.3h |
+| Additive observed work | 21.5h | 270.7h | 598.7h | 1,484.5h |
+| Interactive sessions | 20 | 270 | 299 | 420 |
+| Worker sessions | 57 | 302 | 1,039 | 2,028 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -28,7 +28,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 80 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 81 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -36,9 +36,9 @@ _AI session 365-day totals cover 80 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | grok-4.5 | 34,346 | 300.8M | 18.0M | 3,660.9M | 0 | 92.4% | 1,186 | 337.8h |
 | grok-4.6 | 6,926 | 62.5M | 2.7M | 753.9M | 0 | 92.3% | 63 | 38.5h |
-| gpt-5.6-sol | 5,777 | 26.2M | 1.2M | 675.8M | 0 | 96.3% | 137 | 35.2h |
+| gpt-5.6-sol | 5,762 | 26.2M | 1.2M | 675.2M | 0 | 96.3% | 135 | 35.1h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
-| grok-4.7 | 3,059 | 13.2M | 702K | 307.2M | 0 | 95.9% | 55 | 11.8h |
+| grok-4.7 | 3,108 | 13.3M | 707K | 311.5M | 0 | 95.9% | 57 | 12.2h |
 | grok-build-0.1 | 2,430 | 5.2M | 346K | 356.6M | 0 | 98.6% | 2 | 8.6h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
 | gpt-6-sol | 310 | 1.0M | 84K | 43.2M | 0 | 97.6% | 2 | 1.7h |
@@ -48,9 +48,9 @@ _AI session 365-day totals cover 80 days of local assistant session history (not
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **57,008** | **422.4M** | **24.3M** | **6,241.9M** | **0** | **93.7%** | **1,446** | **456.2h** |
+| **Total** | **57,042** | **422.5M** | **24.3M** | **6,245.7M** | **0** | **93.7%** | **1,446** | **456.7h** |
 
-_6,688.7M total tokens processed. 93.7% cache hit rate._
+_6,692.6M total tokens processed. 93.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -64,7 +64,7 @@ _6,688.7M total tokens processed. 93.7% cache hit rate._
 | gpt-5.6-terra | 4,485 | 32.8M | 944K | 202.2M | 0 | 86.0% | 389 | 18.1h |
 | deepseek-v4-flash | 3,430 | 12.8M | 971K | 329.9M | 0 | 96.2% | 152 | 7.2h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
-| grok-4.7 | 3,066 | 13.3M | 704K | 307.3M | 0 | 95.8% | 57 | 11.9h |
+| grok-4.7 | 3,115 | 13.4M | 709K | 311.7M | 0 | 95.9% | 59 | 12.3h |
 | grok-build-0.1 | 2,571 | 5.5M | 367K | 367.1M | 0 | 98.5% | 4 | 8.8h |
 | gpt-6-sol | 1,212 | 6.0M | 310K | 221.6M | 0 | 97.3% | 10 | 8.6h |
 | claude-sonnet-4-6 | 741 | 37 | 60K | 5.9M | 1.3M | 82.1% | 4 | 1.5h |
@@ -83,9 +83,9 @@ _6,688.7M total tokens processed. 93.7% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **120,927** | **755.0M** | **44.7M** | **15,120.7M** | **95.5M** | **94.7%** | **2,375** | **924.0h** |
+| **Total** | **120,976** | **755.1M** | **44.7M** | **15,125.0M** | **95.5M** | **94.7%** | **2,377** | **924.5h** |
 
-_16,016.1M total tokens processed. 94.7% cache hit rate._
+_16,020.6M total tokens processed. 94.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -103,7 +103,7 @@ _16,016.1M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-24 05:25 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-24 06:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

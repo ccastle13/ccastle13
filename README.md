@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 6.5h | 19.0h | 39.6h | 129.3h |
 | Additive observed work | 21.5h | 270.7h | 598.7h | 1,484.5h |
 | Interactive sessions | 22 | 272 | 301 | 422 |
-| Worker sessions | 69 | 314 | 1,051 | 2,040 |
+| Worker sessions | 71 | 316 | 1,053 | 2,042 |
 
 _Screen time from linux-systemd-logind:session-lid-lock-state; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,8 +36,8 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | grok-4.5 | 34,422 | 301.6M | 18.0M | 3,668.3M | 0 | 92.4% | 1,186 | 338.2h |
 | grok-4.6 | 6,884 | 62.2M | 2.7M | 748.7M | 0 | 92.3% | 63 | 38.3h |
-| gpt-5.6-sol | 3,870 | 15.3M | 798K | 441.4M | 0 | 96.6% | 104 | 23.4h |
-| grok-4.7 | 3,378 | 14.1M | 731K | 335.2M | 0 | 95.9% | 67 | 13.9h |
+| gpt-5.6-sol | 3,612 | 14.0M | 760K | 422.9M | 0 | 96.8% | 100 | 22.5h |
+| grok-4.7 | 3,413 | 14.3M | 734K | 338.1M | 0 | 95.9% | 69 | 14.1h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,430 | 5.2M | 346K | 356.6M | 0 | 98.6% | 2 | 8.6h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
@@ -49,9 +49,9 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **55,504** | **412.7M** | **23.9M** | **6,039.5M** | **0** | **93.6%** | **1,431** | **446.8h** |
+| **Total** | **55,281** | **411.6M** | **23.9M** | **6,023.9M** | **0** | **93.6%** | **1,429** | **446.0h** |
 
-_6,476.2M total tokens processed. 93.6% cache hit rate._
+_6,459.4M total tokens processed. 93.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -64,7 +64,7 @@ _6,476.2M total tokens processed. 93.6% cache hit rate._
 | gpt-6-astra | 4,486 | 17.6M | 1.0M | 892.6M | 0 | 98.1% | 17 | 30.7h |
 | gpt-5.6-terra | 4,485 | 32.8M | 944K | 202.2M | 0 | 86.0% | 389 | 18.1h |
 | deepseek-v4-flash | 3,430 | 12.8M | 971K | 329.9M | 0 | 96.2% | 152 | 7.2h |
-| grok-4.7 | 3,385 | 14.2M | 733K | 335.4M | 0 | 95.9% | 69 | 14.0h |
+| grok-4.7 | 3,420 | 14.4M | 737K | 338.3M | 0 | 95.9% | 71 | 14.2h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,571 | 5.5M | 367K | 367.1M | 0 | 98.5% | 4 | 8.8h |
 | gpt-6-sol | 1,212 | 6.0M | 310K | 221.6M | 0 | 97.3% | 10 | 8.6h |
@@ -85,9 +85,9 @@ _6,476.2M total tokens processed. 93.6% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **121,483** | **757.0M** | **44.8M** | **15,174.9M** | **95.5M** | **94.7%** | **2,391** | **927.2h** |
+| **Total** | **121,518** | **757.2M** | **44.8M** | **15,177.8M** | **95.5M** | **94.7%** | **2,393** | **927.4h** |
 
-_16,072.4M total tokens processed. 94.7% cache hit rate._
+_16,075.4M total tokens processed. 94.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +105,7 @@ _16,072.4M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-24 17:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-24 18:22 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

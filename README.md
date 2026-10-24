@@ -36,12 +36,12 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | grok-4.5 | 34,346 | 300.8M | 18.0M | 3,660.9M | 0 | 92.4% | 1,186 | 337.8h |
 | grok-4.6 | 6,926 | 62.5M | 2.7M | 753.9M | 0 | 92.3% | 63 | 38.5h |
-| gpt-5.6-sol | 5,037 | 21.2M | 1.0M | 592.9M | 0 | 96.5% | 116 | 30.4h |
+| gpt-5.6-sol | 4,859 | 20.1M | 1.0M | 559.7M | 0 | 96.5% | 116 | 28.5h |
 | grok-4.7 | 3,268 | 13.8M | 721K | 326.0M | 0 | 95.9% | 64 | 13.2h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,430 | 5.2M | 346K | 356.6M | 0 | 98.6% | 2 | 8.6h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
-| gpt-6-sol | 272 | 850K | 76K | 36.3M | 0 | 97.7% | 2 | 1.4h |
+| gpt-6-sol | 230 | 672K | 60K | 27.9M | 0 | 97.7% | 2 | 1.1h |
 | grok-4.3 | 147 | 2.7M | 42K | 18.1M | 0 | 86.9% | 9 | 0.4h |
 | MiniMax-M3.1-Flash | 144 | 155K | 31K | 17.8M | 0 | 99.1% | 2 | 0.6h |
 | deepseek-flash | 69 | 526K | 22K | 9.9M | 0 | 95.0% | 3 | 0.2h |
@@ -49,9 +49,9 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **56,583** | **417.9M** | **24.1M** | **6,188.9M** | **0** | **93.7%** | **1,436** | **453.2h** |
+| **Total** | **56,363** | **416.7M** | **24.1M** | **6,147.3M** | **0** | **93.7%** | **1,436** | **451.0h** |
 
-_6,631.0M total tokens processed. 93.7% cache hit rate._
+_6,588.1M total tokens processed. 93.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -105,7 +105,7 @@ _16,053.6M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-24 13:16 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-24 14:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

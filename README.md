@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 5.1h | 23.1h | 44.5h | 134.4h |
 | Additive observed work | 8.0h | 231.2h | 584.1h | 1,492.6h |
 | Interactive sessions | 16 | 268 | 306 | 428 |
-| Worker sessions | 98 | 350 | 1,127 | 2,118 |
+| Worker sessions | 100 | 352 | 1,129 | 2,120 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,24 +34,24 @@ _AI session 365-day totals cover 82 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 34,271 | 295.4M | 17.9M | 3,473.0M | 0 | 92.2% | 1,208 | 334.2h |
+| grok-4.5 | 34,256 | 294.4M | 17.9M | 3,468.3M | 0 | 92.2% | 1,208 | 334.1h |
 | grok-4.6 | 6,884 | 62.2M | 2.7M | 748.6M | 0 | 92.3% | 63 | 38.3h |
-| grok-4.7 | 4,477 | 18.1M | 885K | 434.2M | 0 | 96.0% | 107 | 19.7h |
+| grok-4.7 | 4,512 | 18.2M | 889K | 436.7M | 0 | 96.0% | 109 | 19.8h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,248 | 4.0M | 322K | 332.2M | 0 | 98.8% | 2 | 8.1h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
 | MiniMax-M3.1-Flash | 678 | 1.6M | 142K | 89.3M | 0 | 98.2% | 28 | 2.0h |
 | deepseek-flash | 69 | 526K | 22K | 9.9M | 0 | 95.0% | 3 | 0.2h |
 | qwen3-14b-q4-k-m | 60 | 265K | 46K | 677K | 0 | 71.8% | 10 | 4.3h |
-| gpt-5.6-sol | 30 | 66K | 2K | 830K | 0 | 92.6% | 6 | 0.1h |
+| gpt-5.6-sol | 7 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
 | grok-4.3 | 4 | 130K | 392 | 129K | 0 | 49.9% | 1 | 0.0h |
 | gpt-6-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **52,606** | **392.3M** | **23.2M** | **5,504.4M** | **0** | **93.3%** | **1,424** | **424.7h** |
+| **Total** | **52,603** | **391.2M** | **23.1M** | **5,501.5M** | **0** | **93.4%** | **1,424** | **424.6h** |
 
-_5,920.0M total tokens processed. 93.3% cache hit rate._
+_5,916.0M total tokens processed. 93.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -61,9 +61,9 @@ _5,920.0M total tokens processed. 93.3% cache hit rate._
 | grok-4.5 | 35,749 | 310.4M | 18.8M | 3,806.8M | 0 | 92.5% | 1,208 | 345.5h |
 | grok-4.6 | 8,430 | 85.3M | 3.2M | 940.7M | 0 | 91.7% | 136 | 47.7h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
+| grok-4.7 | 4,519 | 18.3M | 891K | 436.9M | 0 | 96.0% | 111 | 19.9h |
 | gpt-6-astra | 4,486 | 17.6M | 1.0M | 892.6M | 0 | 98.1% | 17 | 30.7h |
 | gpt-5.6-terra | 4,485 | 32.8M | 944K | 202.2M | 0 | 86.0% | 389 | 18.1h |
-| grok-4.7 | 4,484 | 18.2M | 887K | 434.4M | 0 | 96.0% | 109 | 19.8h |
 | deepseek-v4-flash | 3,430 | 12.8M | 971K | 329.9M | 0 | 96.2% | 152 | 7.2h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,571 | 5.5M | 367K | 367.1M | 0 | 98.5% | 4 | 8.8h |
@@ -85,9 +85,9 @@ _5,920.0M total tokens processed. 93.3% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **124,428** | **771.4M** | **45.8M** | **15,483.1M** | **95.5M** | **94.7%** | **2,475** | **941.7h** |
+| **Total** | **124,463** | **771.5M** | **45.8M** | **15,485.6M** | **95.5M** | **94.7%** | **2,477** | **941.8h** |
 
-_16,396.0M total tokens processed. 94.7% cache hit rate._
+_16,398.6M total tokens processed. 94.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +105,7 @@ _16,396.0M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-26 00:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-26 01:18 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

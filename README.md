@@ -34,22 +34,22 @@ _AI session 365-day totals cover 83 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 33,988 | 286.7M | 17.7M | 3,358.6M | 0 | 92.1% | 1,214 | 328.4h |
+| grok-4.5 | 33,911 | 286.3M | 17.7M | 3,336.7M | 0 | 92.1% | 1,213 | 328.1h |
 | grok-4.6 | 6,943 | 62.5M | 2.8M | 754.6M | 0 | 92.3% | 64 | 38.6h |
 | grok-4.7 | 5,008 | 20.1M | 942K | 479.9M | 0 | 96.0% | 130 | 22.4h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
-| grok-build-0.1 | 2,248 | 4.0M | 322K | 332.2M | 0 | 98.8% | 2 | 8.1h |
+| grok-build-0.1 | 2,247 | 4.0M | 322K | 332.2M | 0 | 98.8% | 2 | 8.1h |
 | MiniMax-M3.1-Flash | 1,265 | 3.3M | 283K | 171.1M | 0 | 98.1% | 45 | 3.2h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
 | qwen3-14b-q4-k-m | 60 | 265K | 46K | 677K | 0 | 71.8% | 10 | 4.3h |
-| deepseek-flash | 58 | 345K | 17K | 8.2M | 0 | 96.0% | 3 | 0.1h |
+| deepseek-flash | 42 | 337K | 9K | 5.1M | 0 | 93.8% | 3 | 0.1h |
 | gpt-5.6-sol | 4 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **53,458** | **387.2M** | **23.2M** | **5,521.0M** | **0** | **93.4%** | **1,466** | **423.1h** |
+| **Total** | **53,364** | **386.7M** | **23.1M** | **5,495.9M** | **0** | **93.4%** | **1,465** | **422.7h** |
 
-_5,931.4M total tokens processed. 93.4% cache hit rate._
+_5,905.8M total tokens processed. 93.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -103,7 +103,7 @@ _16,585.4M total tokens processed. 94.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-26 18:50 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-26 19:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

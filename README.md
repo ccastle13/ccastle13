@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.1h | 1.2h | 1.3h | 1.3h |
 | Worker/headless AI generation | 21.8h | 49.1h | 72.5h | 163.1h |
 | Additive observed work | 36.5h | 165.4h | 604.0h | 1,542.1h |
-| Interactive sessions | 32 | 219 | 326 | 448 |
-| Worker sessions | 145 | 433 | 1,257 | 2,270 |
+| Interactive sessions | 34 | 221 | 328 | 450 |
+| Worker sessions | 151 | 439 | 1,263 | 2,276 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,10 +34,10 @@ _AI session 365-day totals cover 84 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 35,153 | 289.1M | 18.3M | 3,418.5M | 0 | 92.2% | 1,252 | 325.3h |
+| grok-4.5 | 35,326 | 291.0M | 18.4M | 3,436.2M | 0 | 92.2% | 1,259 | 326.6h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
-| grok-4.6 | 7,047 | 63.4M | 2.8M | 765.1M | 0 | 92.3% | 66 | 39.6h |
-| grok-4.7 | 5,356 | 22.2M | 999K | 514.1M | 0 | 95.9% | 150 | 24.1h |
+| grok-4.6 | 7,076 | 63.7M | 2.8M | 768.7M | 0 | 92.3% | 66 | 39.7h |
+| grok-4.7 | 5,413 | 22.5M | 1.0M | 520.6M | 0 | 95.9% | 152 | 24.4h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 1,557 | 3.7M | 291K | 250.8M | 0 | 98.5% | 2 | 7.4h |
 | deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
@@ -48,20 +48,20 @@ _AI session 365-day totals cover 84 days of local assistant session history (not
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **61,890** | **404.4M** | **25.4M** | **6,631.4M** | **0** | **94.3%** | **1,591** | **444.7h** |
+| **Total** | **62,149** | **406.9M** | **25.5M** | **6,659.0M** | **0** | **94.2%** | **1,599** | **446.4h** |
 
-_7,061.3M total tokens processed. 94.3% cache hit rate._
+_7,091.6M total tokens processed. 94.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 47,842 | 259.9M | 12.8M | 6,033.5M | 0 | 95.9% | 371 | 386.5h |
-| grok-4.5 | 37,729 | 323.8M | 20.0M | 3,998.3M | 0 | 92.5% | 1,253 | 357.0h |
+| grok-4.5 | 37,902 | 325.7M | 20.1M | 4,015.9M | 0 | 92.5% | 1,260 | 358.3h |
+| grok-4.6 | 8,622 | 86.9M | 3.3M | 960.8M | 0 | 91.7% | 139 | 49.1h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
-| grok-4.6 | 8,593 | 86.6M | 3.3M | 957.2M | 0 | 91.7% | 139 | 49.0h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
-| grok-4.7 | 5,363 | 22.3M | 1.0M | 514.3M | 0 | 95.8% | 152 | 24.2h |
+| grok-4.7 | 5,420 | 22.6M | 1.0M | 520.8M | 0 | 95.8% | 154 | 24.5h |
 | gpt-6-astra | 4,486 | 17.6M | 1.0M | 892.6M | 0 | 98.1% | 17 | 30.7h |
 | gpt-5.6-terra | 4,485 | 32.8M | 944K | 202.2M | 0 | 86.0% | 389 | 18.1h |
 | deepseek-v4-flash | 3,430 | 12.8M | 971K | 329.9M | 0 | 96.2% | 152 | 7.2h |
@@ -85,9 +85,9 @@ _7,061.3M total tokens processed. 94.3% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **135,560** | **803.9M** | **48.9M** | **16,943.4M** | **95.5M** | **95%** | **2,647** | **982.9h** |
+| **Total** | **135,819** | **806.4M** | **49.0M** | **16,971.0M** | **95.5M** | **95%** | **2,655** | **984.7h** |
 
-_17,891.9M total tokens processed. 95% cache hit rate._
+_17,922.1M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +105,7 @@ _17,891.9M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-27 14:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-27 15:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.6h | 1.8h | 1.9h | 1.9h |
 | Worker/headless AI generation | 12.5h | 60.6h | 84.1h | 175.6h |
 | Additive observed work | 27.1h | 156.7h | 609.4h | 1,569.2h |
-| Interactive sessions | 44 | 154 | 356 | 479 |
-| Worker sessions | 149 | 505 | 1,332 | 2,377 |
+| Interactive sessions | 47 | 156 | 358 | 481 |
+| Worker sessions | 150 | 506 | 1,333 | 2,378 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,31 +34,30 @@ _AI session 365-day totals cover 85 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 38,439 | 300.6M | 20.1M | 3,692.1M | 0 | 92.5% | 1,344 | 342.6h |
+| grok-4.5 | 38,558 | 301.7M | 20.2M | 3,687.2M | 0 | 92.4% | 1,345 | 343.4h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
-| grok-4.6 | 7,664 | 65.9M | 3.0M | 836.0M | 0 | 92.7% | 70 | 42.8h |
+| grok-4.6 | 7,729 | 66.2M | 3.0M | 843.6M | 0 | 92.7% | 70 | 43.0h |
 | grok-4.7 | 5,992 | 25.5M | 1.1M | 572.6M | 0 | 95.7% | 197 | 26.8h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
-| grok-build-0.1 | 1,115 | 1.6M | 129K | 197.5M | 0 | 99.2% | 2 | 2.6h |
-| deepseek-v4-pro | 681 | 2.1M | 170K | 95.5M | 0 | 97.8% | 8 | 3.0h |
+| grok-build-0.1 | 1,042 | 1.2M | 116K | 183.8M | 0 | 99.3% | 2 | 2.2h |
+| deepseek-v4-pro | 680 | 2.1M | 170K | 95.5M | 0 | 97.8% | 7 | 2.9h |
 | MiniMax-M3 | 195 | 377K | 21K | 22.3M | 0 | 98.3% | 5 | 0.6h |
 | qwen3-14b-q4-k-m | 60 | 265K | 46K | 677K | 0 | 71.8% | 10 | 4.3h |
 | deepseek-flash | 41 | 337K | 8K | 4.9M | 0 | 93.6% | 2 | 0.1h |
-| gpt-5.6-sol | 3 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **65,986** | **419.6M** | **27.3M** | **6,980.9M** | **0** | **94.3%** | **1,729** | **463.1h** |
+| **Total** | **66,093** | **420.6M** | **27.4M** | **6,970.0M** | **0** | **94.3%** | **1,730** | **463.6h** |
 
-_7,428.0M total tokens processed. 94.3% cache hit rate._
+_7,418.1M total tokens processed. 94.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 47,842 | 259.9M | 12.8M | 6,033.5M | 0 | 95.9% | 371 | 386.5h |
-| grok-4.5 | 41,415 | 343.8M | 22.0M | 4,358.6M | 0 | 92.7% | 1,345 | 377.3h |
-| grok-4.6 | 9,210 | 89.1M | 3.5M | 1,028.1M | 0 | 92.0% | 143 | 52.2h |
+| grok-4.5 | 41,683 | 345.6M | 22.2M | 4,388.3M | 0 | 92.7% | 1,348 | 378.7h |
+| grok-4.6 | 9,275 | 89.4M | 3.5M | 1,035.7M | 0 | 92.1% | 143 | 52.4h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
 | grok-4.7 | 5,999 | 25.6M | 1.1M | 572.7M | 0 | 95.7% | 199 | 26.9h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
@@ -85,9 +84,9 @@ _7,428.0M total tokens processed. 94.3% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **140,499** | **829.7M** | **51.2M** | **17,433.0M** | **95.5M** | **95%** | **2,785** | **1,009.1h** |
+| **Total** | **140,832** | **831.8M** | **51.4M** | **17,470.3M** | **95.5M** | **95%** | **2,788** | **1,010.7h** |
 
-_18,409.6M total tokens processed. 95% cache hit rate._
+_18,449.2M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +104,7 @@ _18,409.6M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-28 16:03 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-28 17:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

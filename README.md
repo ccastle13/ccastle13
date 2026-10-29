@@ -13,14 +13,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 167.2h | 650.4h | ~7819h* |
+| Screen time (Linux) | 24h | 167.8h | 650.4h | ~7819h* |
 | Interactive human attention | 3.0h | 32.5h | 158.4h | 504.4h |
 | Interactive AI generation | 23.5h | 66.1h | 382.5h | 914.4h |
 | Worker-classified human attention | 0.9h | 2.7h | 2.7h | 2.7h |
 | Worker/headless AI generation | 16.6h | 76.1h | 99.1h | 192.3h |
 | Additive observed work | 43.5h | 176.5h | 641.7h | 1,612.8h |
-| Interactive sessions | 60 | 136 | 389 | 513 |
-| Worker sessions | 138 | 551 | 1,369 | 2,452 |
+| Interactive sessions | 61 | 136 | 389 | 513 |
+| Worker sessions | 144 | 557 | 1,375 | 2,458 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,9 +34,9 @@ _AI session 365-day totals cover 86 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 39,569 | 301.6M | 20.7M | 3,684.0M | 0 | 92.4% | 1,391 | 367.6h |
+| grok-4.5 | 39,772 | 302.0M | 20.8M | 3,701.0M | 0 | 92.5% | 1,395 | 368.5h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
-| grok-4.6 | 7,882 | 67.2M | 3.1M | 861.9M | 0 | 92.8% | 72 | 43.6h |
+| grok-4.6 | 7,898 | 67.2M | 3.1M | 863.4M | 0 | 92.8% | 72 | 43.7h |
 | grok-4.7 | 6,578 | 27.8M | 1.2M | 616.6M | 0 | 95.7% | 221 | 29.0h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 819 | 653K | 40K | 157.4M | 0 | 99.6% | 1 | 0.9h |
@@ -47,17 +47,17 @@ _AI session 365-day totals cover 86 days of local assistant session history (not
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **67,620** | **423.3M** | **28.1M** | **7,002.7M** | **0** | **94.3%** | **1,802** | **489.4h** |
+| **Total** | **67,839** | **423.7M** | **28.2M** | **7,021.2M** | **0** | **94.3%** | **1,806** | **490.4h** |
 
-_7,454.2M total tokens processed. 94.3% cache hit rate._
+_7,473.3M total tokens processed. 94.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 47,842 | 259.9M | 12.8M | 6,033.5M | 0 | 95.9% | 371 | 386.5h |
-| grok-4.5 | 44,293 | 358.2M | 23.6M | 4,637.2M | 0 | 92.8% | 1,429 | 410.8h |
-| grok-4.6 | 9,428 | 90.4M | 3.6M | 1,054.0M | 0 | 92.1% | 145 | 53.0h |
+| grok-4.5 | 44,545 | 359.2M | 23.7M | 4,660.4M | 0 | 92.8% | 1,435 | 412.1h |
+| grok-4.6 | 9,444 | 90.4M | 3.6M | 1,055.5M | 0 | 92.1% | 145 | 53.1h |
 | MiniMax-M3.1-Flash | 8,593 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 108 | 25.5h |
 | grok-4.7 | 6,585 | 27.9M | 1.2M | 616.8M | 0 | 95.7% | 223 | 29.1h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
@@ -84,9 +84,9 @@ _7,454.2M total tokens processed. 94.3% cache hit rate._
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-14b-q4-k-m-nothink | 1 | 23K | 2 | 1 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **144,181** | **847.8M** | **53.0M** | **17,781.6M** | **95.5M** | **95%** | **2,894** | **1,045.7h** |
+| **Total** | **144,449** | **848.8M** | **53.2M** | **17,806.3M** | **95.5M** | **95%** | **2,900** | **1,047.0h** |
 
-_18,778.1M total tokens processed. 95% cache hit rate._
+_18,804.0M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -104,7 +104,7 @@ _18,778.1M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-29 16:08 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-29 17:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

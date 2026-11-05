@@ -19,8 +19,8 @@
 | Worker-classified human attention | 4.8h | 27.4h | 30.1h | 30.1h |
 | Worker/headless AI generation | 7.1h | 68.4h | 158.7h | 260.7h |
 | Additive observed work | 26.3h | 205.3h | 750.0h | 1,818.1h |
-| Interactive sessions | 28 | 184 | 540 | 666 |
-| Worker sessions | 215 | 1,051 | 2,113 | 3,475 |
+| Interactive sessions | 31 | 187 | 543 | 669 |
+| Worker sessions | 223 | 1,059 | 2,121 | 3,483 |
 
 _Screen time from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -34,10 +34,10 @@ _AI session 365-day totals cover 93 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| grok-4.5 | 41,414 | 275.0M | 21.8M | 3,817.3M | 0 | 93.3% | 1,359 | 393.1h |
-| gpt-5.6-sol | 9,106 | 33.4M | 1.9M | 903.1M | 0 | 96.4% | 618 | 41.3h |
+| grok-4.5 | 41,340 | 271.8M | 21.7M | 3,813.7M | 0 | 93.3% | 1,359 | 392.7h |
+| gpt-5.6-sol | 9,295 | 34.8M | 1.9M | 928.3M | 0 | 96.4% | 626 | 43.3h |
 | MiniMax-M3.1-Flash | 8,596 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 111 | 25.5h |
-| grok-4.6 | 8,432 | 70.8M | 3.3M | 919.3M | 0 | 92.8% | 79 | 46.6h |
+| grok-4.6 | 8,446 | 70.9M | 3.3M | 920.9M | 0 | 92.8% | 79 | 46.6h |
 | grok-4.7 | 6,814 | 29.0M | 1.3M | 634.3M | 0 | 95.6% | 233 | 30.8h |
 | gpt-6.1-sol | 5,210 | 16.6M | 1.3M | 526.1M | 0 | 96.9% | 251 | 24.9h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
@@ -50,17 +50,17 @@ _AI session 365-day totals cover 93 days of local assistant session history (not
 | claude-opus-4-7 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **83,139** | **449.0M** | **32.4M** | **8,385.5M** | **0** | **94.9%** | **2,658** | **582.5h** |
+| **Total** | **83,268** | **447.4M** | **32.4M** | **8,408.6M** | **0** | **94.9%** | **2,665** | **584.3h** |
 
-_8,867.0M total tokens processed. 94.9% cache hit rate._
+_8,888.5M total tokens processed. 94.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 56,948 | 293.3M | 14.8M | 6,936.6M | 0 | 95.9% | 988 | 427.7h |
-| grok-4.5 | 54,266 | 414.9M | 28.9M | 5,581.3M | 0 | 93.1% | 1,670 | 484.1h |
-| grok-4.6 | 9,978 | 93.9M | 3.7M | 1,111.4M | 0 | 92.2% | 152 | 56.0h |
+| gpt-5.6-sol | 57,137 | 294.7M | 14.8M | 6,961.8M | 0 | 95.9% | 996 | 429.8h |
+| grok-4.5 | 54,334 | 415.4M | 28.9M | 5,586.9M | 0 | 93.1% | 1,674 | 484.5h |
+| grok-4.6 | 9,992 | 94.1M | 3.7M | 1,113.0M | 0 | 92.2% | 152 | 56.0h |
 | MiniMax-M3.1-Flash | 8,596 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 111 | 25.5h |
 | grok-4.7 | 6,821 | 29.1M | 1.3M | 634.5M | 0 | 95.6% | 235 | 30.9h |
 | claude-sonnet-5 | 5,447 | 10K | 4.6M | 1,661.0M | 94.2M | 94.6% | 16 | 32.2h |
@@ -91,9 +91,9 @@ _8,867.0M total tokens processed. 94.9% cache hit rate._
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **169,348** | **959.7M** | **61.8M** | **20,231.7M** | **95.5M** | **95%** | **4,021** | **1,190.4h** |
+| **Total** | **169,619** | **961.7M** | **61.9M** | **20,264.1M** | **95.5M** | **95%** | **4,032** | **1,193.0h** |
 
-_21,349.0M total tokens processed. 95% cache hit rate._
+_21,383.4M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -111,7 +111,7 @@ _21,349.0M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-05 14:03 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-05 15:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

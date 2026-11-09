@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.1h | 31.1h | 36.7h | 36.8h |
 | Worker/headless AI generation | 5.2h | 64.1h | 189.8h | 294.9h |
 | Additive observed work | 19.4h | 191.7h | 801.4h | 1,916.5h |
-| Interactive sessions | 57 | 189 | 650 | 777 |
-| Worker sessions | 235 | 1,246 | 2,633 | 4,150 |
+| Interactive sessions | 58 | 190 | 651 | 778 |
+| Worker sessions | 238 | 1,249 | 2,636 | 4,153 |
 
 _Screen time from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -41,17 +41,17 @@ _AI session 365-day totals cover 97 days of local assistant session history (not
 | grok-4.7 | 7,419 | 32.0M | 1.4M | 695.6M | 0 | 95.6% | 249 | 34.4h |
 | gpt-6.1-sol | 5,230 | 16.8M | 1.3M | 528.6M | 0 | 96.9% | 251 | 24.9h |
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
-| claude-sonnet-5-5 | 986 | 0 | 0 | 0 | 0 | 0.0% | 15 | 0.5h |
+| claude-sonnet-5-5 | 987 | 0 | 0 | 0 | 0 | 0.0% | 16 | 0.5h |
 | qwen3-14b-q4-k-m | 264 | 1.0M | 147K | 5.7M | 0 | 84.5% | 21 | 5.4h |
 | MiniMax-M3 | 195 | 377K | 21K | 22.3M | 0 | 98.3% | 5 | 0.6h |
 | qwen3-14b-q4-k-m-nothink | 16 | 87K | 873 | 369K | 0 | 80.8% | 2 | 0.0h |
 | deepseek-v4-pro | 10 | 157K | 2K | 351K | 0 | 69.1% | 4 | 0.0h |
+| claude-haiku-5-5 | 6 | 0 | 0 | 0 | 0 | 0.0% | 6 | 0.0h |
 | claude-opus-5-5 | 5 | 0 | 0 | 0 | 0 | 0.0% | 5 | 0.1h |
-| claude-haiku-5-5 | 4 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **92,704** | **463.6M** | **34.1M** | **9,317.3M** | **0** | **95.3%** | **3,221** | **648.7h** |
+| **Total** | **92,707** | **463.6M** | **34.1M** | **9,317.3M** | **0** | **95.3%** | **3,224** | **648.7h** |
 
 _9,815.1M total tokens processed. 95.3% cache hit rate._
 
@@ -72,7 +72,7 @@ _9,815.1M total tokens processed. 95.3% cache hit rate._
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,571 | 5.5M | 367K | 367.1M | 0 | 98.5% | 4 | 8.8h |
 | gpt-6-sol | 1,212 | 6.0M | 310K | 221.6M | 0 | 97.3% | 10 | 8.6h |
-| claude-sonnet-5-5 | 986 | 0 | 0 | 0 | 0 | 0.0% | 15 | 0.5h |
+| claude-sonnet-5-5 | 987 | 0 | 0 | 0 | 0 | 0.0% | 16 | 0.5h |
 | claude-sonnet-4-6 | 741 | 37 | 60K | 5.9M | 1.3M | 82.1% | 4 | 1.5h |
 | deepseek-v4-pro | 689 | 2.2M | 173K | 95.8M | 0 | 97.7% | 9 | 3.0h |
 | gpt-5.6-luna | 503 | 4.7M | 177K | 37.1M | 0 | 88.6% | 81 | 7.3h |
@@ -83,8 +83,8 @@ _9,815.1M total tokens processed. 95.3% cache hit rate._
 | deepseek-flash | 69 | 526K | 22K | 9.9M | 0 | 95.0% | 3 | 0.2h |
 | qwen3-14b-q4-k-m-nothink | 16 | 87K | 873 | 369K | 0 | 80.8% | 2 | 0.0h |
 | gpt-6-astra-fast | 8 | 301K | 1K | 994K | 0 | 76.7% | 1 | 0.1h |
+| claude-haiku-5-5 | 6 | 0 | 0 | 0 | 0 | 0.0% | 6 | 0.0h |
 | claude-opus-5-5 | 5 | 0 | 0 | 0 | 0 | 0.0% | 5 | 0.1h |
-| claude-haiku-5-5 | 4 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | gpt-5.6-sol-pro | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gpt-5.6-terra-fast | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
@@ -93,7 +93,7 @@ _9,815.1M total tokens processed. 95.3% cache hit rate._
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen3-vl-30b-a3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **184,621** | **1,036.7M** | **66.8M** | **21,707.3M** | **95.5M** | **95%** | **4,760** | **1,292.1h** |
+| **Total** | **184,624** | **1,036.7M** | **66.8M** | **21,707.3M** | **95.5M** | **95%** | **4,763** | **1,292.1h** |
 
 _22,906.4M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
@@ -116,7 +116,7 @@ _22,906.4M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-09 20:41 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-09 21:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

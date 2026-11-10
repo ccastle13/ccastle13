@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "ccastle13",
-  "updated": "2026-11-09",
-  "through": "2026-11-08",
+  "updated": "2026-11-10",
+  "through": "2026-11-09",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 493,
+  "total": 517,
   "months": [
     {
       "month": "2017-11",
@@ -548,8 +548,8 @@
     },
     {
       "month": "2026-11",
-      "total": 91,
-      "cumulative": 493
+      "total": 115,
+      "cumulative": 517
     }
   ]
 }

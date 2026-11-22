@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 91.5h | 310.4h | 551.8h | 686.2h |
 | Additive observed work | 133.3h | 522.3h | 1,164.8h | 2,657.4h |
 | Interactive sessions | 94 | 317 | 827 | 1,226 |
-| Worker sessions | 240 | 1,048 | 3,906 | 5,966 |
+| Worker sessions | 257 | 1,065 | 3,923 | 5,983 |
 
 _Input activity from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -34,8 +34,8 @@ _AI session 365-day totals cover 110 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 53,853 | 207.1M | 10.7M | 6,287.1M | 0 | 96.8% | 1,970 | 384.8h |
-| grok-4.5 | 27,007 | 177.2M | 14.9M | 2,626.5M | 0 | 93.7% | 664 | 190.9h |
+| gpt-5.6-sol | 54,009 | 208.9M | 10.8M | 6,298.7M | 0 | 96.8% | 1,987 | 385.5h |
+| grok-4.5 | 26,969 | 177.0M | 14.9M | 2,624.2M | 0 | 93.7% | 663 | 190.6h |
 | claude-opus-5-5 | 15,275 | 31K | 6.0M | 2,478.2M | 75.6M | 97.0% | 228 | 88.1h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | grok-4.7 | 9,287 | 51.3M | 2.2M | 886.8M | 0 | 94.5% | 435 | 54.5h |
@@ -56,15 +56,15 @@ _AI session 365-day totals cover 110 days of local assistant session history (no
 | qwen3-14b-q4-k-m-nothink | 15 | 64K | 871 | 369K | 0 | 85.1% | 1 | 0.0h |
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **155,650** | **539.7M** | **47.9M** | **17,380.4M** | **194.7M** | **95.9%** | **4,617** | **987.7h** |
+| **Total** | **155,768** | **541.2M** | **47.9M** | **17,389.6M** | **194.7M** | **95.9%** | **4,633** | **988.1h** |
 
-_18,162.8M total tokens processed. 95.9% cache hit rate._
+_18,173.5M total tokens processed. 95.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 101,695 | 467.0M | 23.6M | 12,320.6M | 0 | 96.3% | 2,340 | 771.2h |
+| gpt-5.6-sol | 101,851 | 468.8M | 23.7M | 12,332.2M | 0 | 96.3% | 2,357 | 772.0h |
 | grok-4.5 | 60,288 | 470.4M | 32.4M | 6,188.1M | 0 | 92.9% | 1,810 | 523.4h |
 | grok-4.6 | 17,028 | 131.1M | 6.0M | 1,915.6M | 0 | 93.6% | 246 | 122.4h |
 | claude-opus-5-5 | 15,275 | 31K | 6.0M | 2,478.2M | 75.6M | 97.0% | 228 | 88.1h |
@@ -105,9 +105,9 @@ _18,162.8M total tokens processed. 95.9% cache hit rate._
 | nemotron-3.5-lightning-free | 2 | 29K | 3 | 28K | 0 | 49.0% | 2 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **274,534** | **1,282.2M** | **91.7M** | **32,307.0M** | **290.2M** | **95.4%** | **6,923** | **1,902.3h** |
+| **Total** | **274,690** | **1,283.9M** | **91.8M** | **32,318.5M** | **290.2M** | **95.4%** | **6,940** | **1,903.0h** |
 
-_33,971.3M total tokens processed. 95.4% cache hit rate._
+_33,984.6M total tokens processed. 95.4% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -128,7 +128,7 @@ _33,971.3M total tokens processed. 95.4% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-22 10:03 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-22 11:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

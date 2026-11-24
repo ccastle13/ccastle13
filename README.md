@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 37.7h | 336.6h | 618.6h | 781.7h |
 | Additive observed work | 96.6h | 639.8h | 1,327.5h | 2,869.5h |
 | Interactive sessions | 92 | 416 | 938 | 1,361 |
-| Worker sessions | 141 | 1,068 | 4,066 | 6,294 |
+| Worker sessions | 143 | 1,070 | 4,068 | 6,296 |
 
 _Input activity from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -38,9 +38,9 @@ _AI session 365-day totals cover 112 days of local assistant session history (no
 | grok-4.5 | 25,739 | 169.5M | 14.2M | 2,505.4M | 0 | 93.7% | 649 | 185.2h |
 | claude-opus-5-5 | 17,745 | 36K | 6.8M | 2,911.3M | 84.7M | 97.2% | 229 | 109.7h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
-| grok-4.6 | 9,711 | 54.0M | 3.1M | 1,084.5M | 0 | 95.3% | 144 | 84.3h |
-| grok-4.7 | 8,834 | 52.8M | 2.2M | 861.6M | 0 | 94.2% | 416 | 54.8h |
-| MiniMax-M3.1-Flash | 8,428 | 14.8M | 1.7M | 1,220.6M | 0 | 98.8% | 102 | 24.9h |
+| grok-4.6 | 9,751 | 54.1M | 3.1M | 1,089.5M | 0 | 95.3% | 144 | 84.6h |
+| grok-4.7 | 8,878 | 53.0M | 2.2M | 866.0M | 0 | 94.2% | 418 | 55.0h |
+| MiniMax-M3.1-Flash | 8,427 | 14.7M | 1.7M | 1,220.6M | 0 | 98.8% | 101 | 24.9h |
 | claude-haiku-5-5 | 7,932 | 17K | 4.5M | 919.7M | 90.9M | 91.0% | 737 | 66.2h |
 | gpt-6.1-sol | 5,450 | 18.1M | 1.3M | 561.2M | 0 | 96.9% | 251 | 26.6h |
 | glm-5.3 | 5,010 | 19.4M | 1.2M | 573.0M | 0 | 96.7% | 104 | 27.8h |
@@ -59,9 +59,9 @@ _AI session 365-day totals cover 112 days of local assistant session history (no
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-4-argon | 2 | 49K | 966 | 47K | 0 | 48.9% | 1 | 0.0h |
-| **Total** | **175,812** | **678.7M** | **51.6M** | **19,852.4M** | **206.2M** | **95.7%** | **4,993** | **1,169.5h** |
+| **Total** | **175,895** | **679.0M** | **51.6M** | **19,861.8M** | **206.2M** | **95.7%** | **4,994** | **1,169.9h** |
 
-_20,789.1M total tokens processed. 95.7% cache hit rate._
+_20,798.7M total tokens processed. 95.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -69,9 +69,9 @@ _20,789.1M total tokens processed. 95.7% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 116,960 | 513.9M | 25.8M | 14,146.6M | 0 | 96.5% | 2,641 | 903.1h |
 | grok-4.5 | 60,457 | 472.8M | 32.5M | 6,207.6M | 0 | 92.9% | 1,813 | 524.4h |
-| grok-4.6 | 18,140 | 139.3M | 6.3M | 2,025.2M | 0 | 93.6% | 275 | 132.0h |
+| grok-4.6 | 18,180 | 139.4M | 6.4M | 2,030.2M | 0 | 93.6% | 275 | 132.3h |
 | claude-opus-5-5 | 17,745 | 36K | 6.8M | 2,911.3M | 84.7M | 97.2% | 229 | 109.7h |
-| grok-4.7 | 12,765 | 69.2M | 3.0M | 1,244.3M | 0 | 94.7% | 507 | 72.0h |
+| grok-4.7 | 12,809 | 69.4M | 3.0M | 1,248.7M | 0 | 94.7% | 509 | 72.1h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | MiniMax-M3.1-Flash | 8,596 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 111 | 25.5h |
 | claude-sonnet-5 | 8,071 | 16K | 5.6M | 2,081.1M | 103.2M | 95.3% | 38 | 42.0h |
@@ -111,9 +111,9 @@ _20,789.1M total tokens processed. 95.7% cache hit rate._
 | nemotron-3.5-lightning-free | 2 | 29K | 3 | 28K | 0 | 49.0% | 2 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **298,145** | **1,439.6M** | **96.7M** | **35,108.5M** | **301.8M** | **95.3%** | **7,385** | **2,100.9h** |
+| **Total** | **298,229** | **1,439.9M** | **96.7M** | **35,117.9M** | **301.8M** | **95.3%** | **7,387** | **2,101.3h** |
 
-_36,946.8M total tokens processed. 95.3% cache hit rate._
+_36,956.4M total tokens processed. 95.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -134,7 +134,7 @@ _36,946.8M total tokens processed. 95.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-24 07:22 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-24 08:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

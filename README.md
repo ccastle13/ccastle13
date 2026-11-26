@@ -14,13 +14,13 @@
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Input activity (Linux) | unavailable | unavailable | unavailable | unavailable |
-| Interactive human attention | 4.0h | 29.3h | 123.3h | 624.8h |
-| Interactive AI generation | 21.9h | 263.7h | 553.2h | 1444.1h |
-| Worker-classified human attention | 0.2h | 7.2h | 52.7h | 54.6h |
-| Worker/headless AI generation | 16.3h | 302.4h | 622.4h | 798.0h |
-| Additive observed work | 42.5h | 602.1h | 1,342.8h | 2,912.0h |
-| Interactive sessions | 103 | 498 | 1,018 | 1,459 |
-| Worker sessions | 232 | 1,130 | 4,208 | 6,522 |
+| Interactive human attention | 0.7h | 23.2h | 121.1h | 625.5h |
+| Interactive AI generation | 23.6h | 235.6h | 553.3h | 1467.7h |
+| Worker-classified human attention | 0.0h | 3.4h | 51.9h | 54.6h |
+| Worker/headless AI generation | 44.9h | 277.4h | 650.7h | 843.0h |
+| Additive observed work | 69.2h | 539.4h | 1,368.5h | 2,981.3h |
+| Interactive sessions | 37 | 431 | 980 | 1,459 |
+| Worker sessions | 134 | 942 | 4,098 | 6,522 |
 
 _Input activity from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -28,14 +28,14 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 113 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 114 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 69,125 | 254.6M | 12.9M | 8,113.1M | 0 | 97.0% | 2,278 | 516.7h |
-| grok-4.5 | 23,412 | 153.8M | 12.7M | 2,268.9M | 0 | 93.6% | 602 | 170.0h |
+| grok-4.5 | 23,243 | 153.3M | 12.7M | 2,253.6M | 0 | 93.6% | 599 | 169.6h |
 | claude-opus-5-5 | 19,264 | 40K | 7.3M | 3,177.7M | 92.3M | 97.2% | 230 | 119.1h |
 | gpt-6.2-sol | 10,683 | 421.0M | 2.6M | 993.4M | 0 | 70.2% | 244 | 82.8h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
@@ -47,7 +47,6 @@ _AI session 365-day totals cover 113 days of local assistant session history (no
 | claude-sonnet-5 | 2,624 | 5K | 977K | 420.0M | 8.9M | 97.9% | 22 | 9.8h |
 | qwen3-vl-30b-a3b | 1,161 | 4.8M | 80K | 37.2M | 0 | 88.4% | 20 | 6.2h |
 | qwen3-14b-q4-k-m | 368 | 1.4M | 237K | 8.5M | 0 | 85.8% | 13 | 2.7h |
-| MiniMax-M3.1-Flash | 314 | 270K | 64K | 66.3M | 0 | 99.6% | 14 | 0.9h |
 | qwen3vl-30b-a3b-q4-k-m | 277 | 899K | 158K | 4.2M | 0 | 82.4% | 22 | 1.3h |
 | claude-haiku-4-5 | 164 | 920 | 24K | 19.0M | 664K | 96.6% | 3 | 0.5h |
 | qwen3-vl-30b-a3b-q4-k-m | 123 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.1h |
@@ -55,12 +54,13 @@ _AI session 365-day totals cover 113 days of local assistant session history (no
 | claude-fable-5-2 | 46 | 102 | 15K | 4.2M | 525K | 89.0% | 1 | 0.6h |
 | qwen3-8b-q4-k-m | 23 | 18K | 5K | 9K | 0 | 34.3% | 3 | 0.1h |
 | qwen3-14b-q4-k-m-nothink | 15 | 64K | 871 | 369K | 0 | 85.1% | 1 | 0.0h |
+| MiniMax-M3.1-Flash | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-4-argon | 2 | 49K | 966 | 47K | 0 | 48.9% | 1 | 0.0h |
-| **Total** | **177,076** | **993.8M** | **51.9M** | **19,688.0M** | **215.2M** | **94.2%** | **5,122** | **1,215.0h** |
+| **Total** | **176,596** | **993.0M** | **51.7M** | **19,606.3M** | **215.2M** | **94.2%** | **5,108** | **1,213.6h** |
 
-_20,948.9M total tokens processed. 94.2% cache hit rate._
+_20,866.3M total tokens processed. 94.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -133,7 +133,7 @@ _38,698.3M total tokens processed. 94.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-26 06:39 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-26 07:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

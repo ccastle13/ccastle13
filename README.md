@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 44.9h | 277.4h | 650.7h | 843.0h |
 | Additive observed work | 69.2h | 539.4h | 1,368.5h | 2,981.3h |
 | Interactive sessions | 64 | 458 | 1,007 | 1,486 |
-| Worker sessions | 245 | 1,050 | 4,206 | 6,630 |
+| Worker sessions | 252 | 1,057 | 4,213 | 6,637 |
 
 _Input activity from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -35,12 +35,12 @@ _AI session 365-day totals cover 114 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 69,140 | 255.5M | 13.0M | 8,113.1M | 0 | 96.9% | 2,288 | 517.1h |
-| grok-4.5 | 22,016 | 143.2M | 12.0M | 2,144.0M | 0 | 93.7% | 558 | 162.4h |
+| grok-4.5 | 21,985 | 143.1M | 12.0M | 2,139.6M | 0 | 93.7% | 558 | 162.3h |
 | claude-opus-5-5 | 19,696 | 40K | 7.5M | 3,253.9M | 94.1M | 97.2% | 230 | 121.5h |
-| gpt-6.2-sol | 16,548 | 651.5M | 4.1M | 1,580.8M | 0 | 70.8% | 338 | 135.9h |
+| gpt-6.2-sol | 16,825 | 662.5M | 4.2M | 1,598.9M | 0 | 70.7% | 345 | 137.6h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | grok-4.6 | 10,288 | 57.1M | 3.2M | 1,122.2M | 0 | 95.2% | 185 | 87.5h |
-| grok-4.7 | 9,330 | 56.3M | 2.5M | 952.2M | 0 | 94.4% | 422 | 56.3h |
+| grok-4.7 | 9,327 | 56.2M | 2.5M | 952.2M | 0 | 94.4% | 421 | 56.3h |
 | claude-haiku-5-5 | 7,949 | 17K | 4.7M | 919.7M | 92.3M | 90.9% | 737 | 66.8h |
 | glm-5.3 | 5,874 | 23.9M | 1.4M | 646.4M | 0 | 96.4% | 140 | 31.6h |
 | gpt-6.1-sol | 5,450 | 18.1M | 1.3M | 561.2M | 0 | 96.9% | 251 | 26.6h |
@@ -58,9 +58,9 @@ _AI session 365-day totals cover 114 days of local assistant session history (no
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-4-argon | 2 | 49K | 966 | 47K | 0 | 48.9% | 1 | 0.0h |
-| **Total** | **181,767** | **1,215.5M** | **52.7M** | **20,168.2M** | **217.0M** | **93.4%** | **5,174** | **1,262.5h** |
+| **Total** | **182,010** | **1,226.2M** | **52.8M** | **20,181.8M** | **217.0M** | **93.3%** | **5,180** | **1,264.1h** |
 
-_21,653.5M total tokens processed. 93.4% cache hit rate._
+_21,678.0M total tokens processed. 93.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -70,7 +70,7 @@ _21,653.5M total tokens processed. 93.4% cache hit rate._
 | grok-4.5 | 60,552 | 474.0M | 32.5M | 6,218.0M | 0 | 92.9% | 1,820 | 524.7h |
 | claude-opus-5-5 | 19,696 | 40K | 7.5M | 3,253.9M | 94.1M | 97.2% | 230 | 121.5h |
 | grok-4.6 | 19,369 | 145.3M | 6.7M | 2,136.9M | 0 | 93.6% | 320 | 138.7h |
-| gpt-6.2-sol | 16,548 | 651.5M | 4.1M | 1,580.8M | 0 | 70.8% | 338 | 135.9h |
+| gpt-6.2-sol | 16,825 | 662.5M | 4.2M | 1,598.9M | 0 | 70.7% | 345 | 137.6h |
 | grok-4.7 | 15,047 | 80.4M | 3.6M | 1,499.9M | 0 | 94.9% | 592 | 82.2h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | MiniMax-M3.1-Flash | 8,596 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 111 | 25.5h |
@@ -110,9 +110,9 @@ _21,653.5M total tokens processed. 93.4% cache hit rate._
 | nemotron-3.5-lightning-free | 2 | 29K | 3 | 28K | 0 | 49.0% | 2 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **318,976** | **2,029.8M** | **102.4M** | **37,278.0M** | **312.6M** | **94.1%** | **7,844** | **2,254.7h** |
+| **Total** | **319,253** | **2,040.7M** | **102.4M** | **37,296.1M** | **312.6M** | **94.1%** | **7,851** | **2,256.3h** |
 
-_39,722.9M total tokens processed. 94.1% cache hit rate._
+_39,752.0M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -133,7 +133,7 @@ _39,722.9M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-27 01:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-27 02:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

@@ -37,10 +37,10 @@ _AI session 365-day totals cover 116 days of local assistant session history (no
 | gpt-5.6-sol | 69,152 | 255.8M | 13.0M | 8,113.1M | 0 | 96.9% | 2,294 | 517.4h |
 | claude-opus-5-5 | 20,167 | 41K | 7.7M | 3,337.5M | 97.0M | 97.2% | 230 | 123.4h |
 | gpt-6.2-sol | 18,679 | 737.1M | 4.6M | 1,751.6M | 0 | 70.4% | 402 | 148.8h |
-| grok-4.5 | 16,465 | 117.2M | 8.9M | 1,599.3M | 0 | 93.2% | 415 | 115.2h |
+| grok-4.5 | 16,368 | 116.7M | 8.9M | 1,589.6M | 0 | 93.2% | 412 | 114.3h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | grok-4.6 | 10,106 | 56.2M | 3.1M | 1,095.1M | 0 | 95.1% | 186 | 86.3h |
-| grok-4.7 | 9,664 | 58.8M | 2.5M | 1,021.1M | 0 | 94.5% | 422 | 58.0h |
+| grok-4.7 | 9,580 | 58.6M | 2.5M | 1,015.4M | 0 | 94.5% | 420 | 57.8h |
 | claude-haiku-5-5 | 7,949 | 17K | 4.7M | 919.7M | 92.3M | 90.9% | 737 | 66.8h |
 | glm-5.3 | 5,977 | 24.9M | 1.4M | 657.4M | 0 | 96.3% | 145 | 32.2h |
 | gpt-6.1-sol | 5,450 | 18.1M | 1.3M | 561.2M | 0 | 96.9% | 251 | 26.6h |
@@ -58,9 +58,9 @@ _AI session 365-day totals cover 116 days of local assistant session history (no
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-4-argon | 2 | 49K | 966 | 47K | 0 | 48.9% | 1 | 0.0h |
-| **Total** | **179,090** | **1,278.1M** | **50.4M** | **19,930.7M** | **219.9M** | **93%** | **5,107** | **1,231.4h** |
+| **Total** | **178,909** | **1,277.4M** | **50.3M** | **19,915.3M** | **219.9M** | **93%** | **5,102** | **1,230.3h** |
 
-_21,479.2M total tokens processed. 93% cache hit rate._
+_21,463.1M total tokens processed. 93% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -133,7 +133,7 @@ _40,231.2M total tokens processed. 93.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-28 14:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-28 15:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->

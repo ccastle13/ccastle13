@@ -19,8 +19,8 @@
 | Worker-classified human attention | 0.5h | 2.7h | 51.7h | 55.1h |
 | Worker/headless AI generation | 64.9h | 325.7h | 702.4h | 907.8h |
 | Additive observed work | 73.3h | 565.1h | 1,402.1h | 3,054.5h |
-| Interactive sessions | 43 | 428 | 990 | 1,500 |
-| Worker sessions | 188 | 1,035 | 4,189 | 6,704 |
+| Interactive sessions | 44 | 429 | 991 | 1,501 |
+| Worker sessions | 200 | 1,047 | 4,201 | 6,716 |
 
 _Input activity from linux-input-activity; collection status: unavailable (no-input-activity-samples)._
 
@@ -34,18 +34,18 @@ _AI session 365-day totals cover 115 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 69,147 | 255.6M | 13.0M | 8,113.1M | 0 | 96.9% | 2,292 | 517.2h |
-| claude-opus-5-5 | 20,005 | 41K | 7.6M | 3,309.6M | 96.3M | 97.2% | 230 | 122.8h |
-| gpt-6.2-sol | 18,154 | 715.7M | 4.5M | 1,708.3M | 0 | 70.5% | 379 | 146.3h |
-| grok-4.5 | 17,812 | 123.5M | 9.7M | 1,728.1M | 0 | 93.3% | 461 | 131.8h |
+| gpt-5.6-sol | 69,150 | 255.8M | 13.0M | 8,113.1M | 0 | 96.9% | 2,292 | 517.4h |
+| claude-opus-5-5 | 20,128 | 41K | 7.7M | 3,330.7M | 97.0M | 97.2% | 230 | 123.2h |
+| gpt-6.2-sol | 18,319 | 722.7M | 4.5M | 1,717.2M | 0 | 70.4% | 389 | 146.8h |
+| grok-4.5 | 17,250 | 121.6M | 9.4M | 1,671.0M | 0 | 93.2% | 451 | 127.3h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | grok-4.6 | 10,106 | 56.2M | 3.1M | 1,095.1M | 0 | 95.1% | 186 | 86.3h |
-| grok-4.7 | 9,407 | 57.5M | 2.5M | 980.4M | 0 | 94.5% | 413 | 57.0h |
+| grok-4.7 | 9,408 | 57.6M | 2.5M | 981.6M | 0 | 94.5% | 413 | 56.9h |
 | claude-haiku-5-5 | 7,949 | 17K | 4.7M | 919.7M | 92.3M | 90.9% | 737 | 66.8h |
 | glm-5.3 | 5,977 | 24.9M | 1.4M | 657.4M | 0 | 96.3% | 145 | 32.2h |
 | gpt-6.1-sol | 5,450 | 18.1M | 1.3M | 561.2M | 0 | 96.9% | 251 | 26.6h |
 | claude-sonnet-5 | 2,624 | 5K | 977K | 420.0M | 8.9M | 97.9% | 22 | 9.8h |
-| qwen3-vl-30b-a3b | 1,161 | 4.8M | 80K | 37.2M | 0 | 88.4% | 20 | 6.2h |
+| qwen3-vl-30b-a3b | 1,166 | 4.8M | 80K | 37.2M | 0 | 88.4% | 21 | 6.2h |
 | qwen3-14b-q4-k-m | 368 | 1.4M | 237K | 8.5M | 0 | 85.8% | 13 | 2.7h |
 | qwen3vl-30b-a3b-q4-k-m | 277 | 899K | 158K | 4.2M | 0 | 82.4% | 22 | 1.3h |
 | claude-haiku-4-5 | 164 | 920 | 24K | 19.0M | 664K | 96.6% | 3 | 0.5h |
@@ -58,20 +58,20 @@ _AI session 365-day totals cover 115 days of local assistant session history (no
 | claude-opus-4-7 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
 | claude-sonnet-4-5 | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-4-argon | 2 | 49K | 966 | 47K | 0 | 48.9% | 1 | 0.0h |
-| **Total** | **179,483** | **1,261.5M** | **50.9M** | **19,947.6M** | **219.2M** | **93.1%** | **5,120** | **1,243.8h** |
+| **Total** | **179,218** | **1,266.9M** | **50.7M** | **19,921.7M** | **219.8M** | **93.1%** | **5,121** | **1,240.4h** |
 
-_21,479.3M total tokens processed. 93.1% cache hit rate._
+_21,459.3M total tokens processed. 93.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 116,989 | 515.5M | 25.9M | 14,146.6M | 0 | 96.5% | 2,661 | 903.7h |
-| grok-4.5 | 60,576 | 474.3M | 32.5M | 6,220.5M | 0 | 92.9% | 1,822 | 524.8h |
-| claude-opus-5-5 | 20,005 | 41K | 7.6M | 3,309.6M | 96.3M | 97.2% | 230 | 122.8h |
+| gpt-5.6-sol | 116,992 | 515.7M | 25.9M | 14,146.6M | 0 | 96.5% | 2,661 | 903.9h |
+| grok-4.5 | 60,577 | 474.4M | 32.5M | 6,220.5M | 0 | 92.9% | 1,823 | 524.8h |
+| claude-opus-5-5 | 20,128 | 41K | 7.7M | 3,330.7M | 97.0M | 97.2% | 230 | 123.2h |
 | grok-4.6 | 19,514 | 146.6M | 6.8M | 2,148.3M | 0 | 93.6% | 326 | 139.2h |
-| gpt-6.2-sol | 18,154 | 715.7M | 4.5M | 1,708.3M | 0 | 70.5% | 379 | 146.3h |
-| grok-4.7 | 15,699 | 84.3M | 3.7M | 1,574.6M | 0 | 94.9% | 626 | 84.9h |
+| gpt-6.2-sol | 18,319 | 722.7M | 4.5M | 1,717.2M | 0 | 70.4% | 389 | 146.8h |
+| grok-4.7 | 15,719 | 84.4M | 3.7M | 1,576.9M | 0 | 94.9% | 627 | 85.0h |
 | claude-sonnet-5-5 | 10,609 | 6K | 1.1M | 379.4M | 20.4M | 94.9% | 175 | 35.2h |
 | MiniMax-M3.1-Flash | 8,596 | 15.1M | 1.8M | 1,239.3M | 0 | 98.8% | 111 | 25.5h |
 | claude-sonnet-5 | 8,071 | 16K | 5.6M | 2,081.1M | 103.2M | 95.3% | 38 | 42.0h |
@@ -84,7 +84,7 @@ _21,479.3M total tokens processed. 93.1% cache hit rate._
 | minimax-m3.1-flash-free | 3,200 | 7.6M | 840K | 319.8M | 0 | 97.7% | 54 | 14.9h |
 | grok-build-0.1 | 2,571 | 5.5M | 367K | 367.1M | 0 | 98.5% | 4 | 8.8h |
 | gpt-6-sol | 1,212 | 6.0M | 310K | 221.6M | 0 | 97.3% | 10 | 8.6h |
-| qwen3-vl-30b-a3b | 1,161 | 4.8M | 80K | 37.2M | 0 | 88.4% | 20 | 6.2h |
+| qwen3-vl-30b-a3b | 1,166 | 4.8M | 80K | 37.2M | 0 | 88.4% | 21 | 6.2h |
 | claude-sonnet-4-6 | 741 | 37 | 60K | 5.9M | 1.3M | 82.1% | 4 | 1.5h |
 | deepseek-v4-pro | 689 | 2.2M | 173K | 95.8M | 0 | 97.7% | 9 | 3.0h |
 | gpt-5.6-luna | 503 | 4.7M | 177K | 37.1M | 0 | 88.6% | 81 | 7.3h |
@@ -110,9 +110,9 @@ _21,479.3M total tokens processed. 93.1% cache hit rate._
 | nemotron-3.5-lightning-free | 2 | 29K | 3 | 28K | 0 | 49.0% | 2 | 0.0h |
 | grok-4-5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen2.5-vl-3b-q4-k-m | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **321,822** | **2,100.7M** | **103.1M** | **37,560.9M** | **314.8M** | **94%** | **7,932** | **2,270.4h** |
+| **Total** | **322,139** | **2,108.0M** | **103.2M** | **37,593.2M** | **315.4M** | **93.9%** | **7,945** | **2,271.6h** |
 
-_40,079.5M total tokens processed. 94% cache hit rate._
+_40,120.0M total tokens processed. 93.9% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -133,7 +133,7 @@ _40,079.5M total tokens processed. 94% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-28 04:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-28 05:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
